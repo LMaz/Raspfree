@@ -1,0 +1,1319 @@
+
+
+
+
+/* ***************************************************** GENERAL ********************************************************** */
+
+body {
+
+    background: url('../img/45D.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Quicksand-Bold;
+    src: url("fonts/Quicksand-Bold") format("opentype");
+}
+
+@font-face {
+    font-family: 'Quicksand-Bold';
+    src: url("../fonts/Quicksand-Bold.otf") format("opentype");
+}
+
+.breadcrumb> li >a {
+    color: black;
+    text-decoration: none;
+}
+
+.breadcrumb>li+li:before {
+    padding: 0 5px;
+    color: black;
+    content: "/\00a0";
+}
+
+.breadcrumb>.active {
+    color: red;
+}
+
+h1 {
+
+    font-size: 60px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+
+h3 {
+    margin:0;
+}
+
+hr {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.MargenSuperior40 {
+    margin-top:40px;
+}
+
+.MargenSuperior20 {
+    margin-top:20px;
+}
+
+.Margen10 {
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+.MargenSup60 {
+    margin-top: 60px;
+}
+/*******************titulos***********/
+.imgTit {
+    height: 150px;
+    width: 190px;
+    margin-bottom: 40px;
+    margin-top: 23px;
+
+}
+
+@media (max-width: 1024px){
+    .imgTit{
+        height: 80px;
+        width: 120px;
+
+    }
+
+    h1 {
+        font-size: 40px;
+        margin-bottom: 40px;
+        margin-top: 30px;
+    }
+}
+
+/*****************fin titulos*********/
+
+/* ***************************************************** FIN GENERAL ********************************************************** */
+
+/* ***************************************************** MENÚ ********************************************************** */
+.navbar {
+    background-color: #222;
+    height: 60px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow:0px 4px 3px rgba(0,0,0,.5);  
+    color: #FFFFFF;
+}
+
+#navbar {
+    background-color: #222;
+}
+
+.nav {
+    text-align: right;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 7px;   
+}
+
+.nav li a {
+    color: #FFFFFF;
+}
+
+.navbar-nav > li > a:focus, .navbar-nav > li > a:hover {
+    color: #F53939;
+}
+
+.dropdown-menu,
+.dropdown-menu > li > a {
+    background-color: #222;
+}
+
+.dropdown-menu > li > a:hover, 
+.dropdown-menu > li > a:focus {
+    background-color: #222;
+    color: #F53939;
+}
+
+.colorIconBar {
+    background-color: #000000;
+}
+
+.navbar-header {
+    height:60px;
+}
+
+.navbar-default {
+    border-color: #000000;
+}
+
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #F53939;
+    background-color: #222;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #EDEEF2;
+}
+
+.navbar-default .navbar-toggle:focus, 
+.navbar-default .navbar-toggle:hover {
+    background-color: #222;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #222;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus, 
+.navbar-default .navbar-nav > .open > a:hover {
+    border-radius: 6px 6px 6px 6px;
+    background-color: #FAF8F3;
+}
+
+.logo {
+    margin-top: -9px;
+    width: 53px;
+    height: 55px;
+}
+
+/********************imagen perfil******************/
+.perfilImg{
+    width: 250px;
+}
+
+/*Para que el menú superior se muestre con collapse en tablet.*/
+@media (max-width: 1200px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+}
+
+/* ***************************************************** FIN MENÚ ********************************************************** */
+
+/* ***************************************************** APARTADO NOVEDADES ********************************************************** */
+
+/* *********************** NOVEDADES *********************** */
+
+.imgNovedad {
+    margin-left: 17px;
+    
+    margin-bottom: 20px;
+    height: 150px;
+    width: 250px;
+}
+
+.novInfo {
+    background: #fff;
+    position: relative;
+}
+
+.leerMas {
+    text-decoration: underline;
+    color: #C7053D;
+    margin-bottom: 20px;
+}
+
+.leerMas:visited {
+    text-decoration: underline #C7053D;
+    color: #C7053D;
+}
+
+.hrNov {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    height: 1px;
+    background-color: #999999
+}
+
+.novAutor {
+    color: #999;
+}
+
+/* *********************** FIN NOVEDADES *********************** */
+
+/* *********************** RESUMEN TUTORIALES *********************** */
+
+.resumenTuto h3 {
+    font-size: 13px;
+    margin: 0 0 5px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.resumenTuto h3 a {
+    color: #555;
+    font-size: 14px;
+    margin: 0px;
+    text-decoration: underline;
+}
+
+.resumenTuto small,
+.resumenTuto small a {
+    color: #999;
+}
+
+.separaTitulo {
+    height: 4px;  
+    background-color: #111; 
+}
+
+/* *********************** FIN RESUMEN TUTORIALES *********************** */
+
+/* ************************ PRÓXIMOS EVENTOS ************************ */ 
+
+.proxEventos {
+    margin-top: 50px;
+}
+
+.resumenEven {
+    margin-bottom: 20px;
+}
+
+.eventInfo {
+    font-size: 15px;
+    color: black;
+}
+
+.eventFecha {
+    color: #999;
+}
+
+.eventInfo h3 {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.eventInfo h3 a {
+    color: #555;
+    font-size: 14px;
+    margin: 0px;
+    text-decoration: underline;
+}
+
+.imgRedonda {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.tituloResumen {
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #C7053D;
+}
+
+/* ************************ FIN PRÓXIMOS EVENTOS ************************ */ 
+
+/* ***************************************************** FIN APARTADO NOVEDADES ********************************************************** */
+
+/* *****************************************************  PAGINA NOVEDAD ********************************************************** */
+
+.novedad {
+   
+    font-size: 18px;
+}
+
+.novedad h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.novedad small {
+    color: #999;
+    font-style: italic;     
+}
+
+.imgNov {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+@media (max-width: 1024px){
+    .titNov {
+        font-size: 18px;
+    }
+    
+    .novedad {
+       
+    }
+}
+
+
+/* *****************************************************  FIN PAGINA NOVEDAD ********************************************************** */
+
+/* ************************************************ PAGINADORES ***************************************************** */
+
+.paginador{
+    text-align: center;
+}
+
+.paginadorNov {
+    text-align: none;
+}
+
+.pagination li a {
+    display: block;
+    float: left;
+    color: #585858;
+    text-decoration: none;
+    padding: 6px 11px;
+    margin-right: 6px;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+}
+
+ul.pagination li.active a {
+    background-color: #C7053D;
+    color: white;
+    border-color: #FFFFFF;
+    cursor: pointer;
+}
+
+ul.pagination li.active a:hover {
+    border-color: #000000;
+}
+
+ul.pagination li:hover:not(.active) a {
+    background-color: #DDD;
+    cursor: pointer;
+}
+
+ul.pagination li.active:hover a {
+    background-color: #C7053D;
+}
+
+/* ************************************************ FIN PAGINADORES ***************************************************** */
+
+/* ************************************************ FOOTER ***************************************************** */
+
+.pie {
+    background-color: #222;
+}
+
+.iconfooter {
+    width: 300px;
+    height: 350px;
+
+}
+
+.headingfoot {
+    color: #999;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.footer-ul > li > a {
+    color: #F53939;
+    font-size: 20px;
+}
+
+.footer-ul  > li > a:hover{
+    color: #FFFFFF;
+
+}
+
+.textoFooter {
+    color: #999;
+    font-size: 16px;   
+}
+.iconosFooter > a{
+    color: #999999;
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+@media (max-width: 1350px){
+    .iconosFooter > a{
+        width: 50px;
+        height: 50px;
+
+    }
+
+    .iconfooter {
+        height: 300px;
+
+    }
+
+
+
+}
+
+/* ************************************************ FIN FOOTER ***************************************************** */
+
+/* ************************************************ EDITOR ***************************************************** */
+
+.form-group > h3,
+.box-header > h3 {
+    margin-bottom: 10px;
+}
+
+.btnEnviar {
+    margin-top: 15px;
+    color: #FFFFFF;
+    background-color: #222;
+}
+
+.btnEnviar:hover {
+    color: #F53939;
+    background-color: #222;
+}
+
+/* ************************************************ FIN EDITOR ***************************************************** */
+
+/* ************************************************ TUTORIALES ***************************************************** */
+
+.imgTuto {
+    height: 200px;
+    width: 350px;
+}
+
+
+.codigo {
+    margin-left: 40px;
+    color: #830000;
+    font-weight: bold;
+}
+
+.tutorial > p {
+    font-family: Quicksand-Regular;
+}
+
+@font-face {
+    font-family: 'Quicksand-Regular';
+    src: url("../fonts/Quicksand-Regular.otf") format("opentype");
+}
+
+.tutorial small {
+    color: #999;
+    font-style: italic;     
+}
+
+.hrTut {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    height: 1px;
+    background-color: #999999
+}
+
+.btnEditar {
+    margin-left: 30px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+    background-color: #222;
+}
+
+.btnEditar:hover,
+.btnEditar:focus,
+.btnEditar:visited,
+.btnEditar:visited {
+    color: #F53939;
+    background-color: #222;
+}
+/**********botones para moderar*******/
+.moderar {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* ************************************************ FIN TUTORIALES ***************************************************** */
+
+
+/*****************************************************MODALES*********************************************************/
+/******************************* Información de texto *********************** */
+
+    label {
+        font-weight: bold;
+    }
+
+    span.psw {
+        float: right;
+        padding-top: 16px;
+        
+    }
+
+    /* tamaño de texto de las etiquetas de las tablas */
+
+    .titTabla{
+        font-size:25px;
+        overflow:hidden;
+      
+    }
+
+    /*esto añadelo debajo*/
+
+   	/*oculta el overflow de las columnas al hacerlo pequeño*/
+
+    .table{
+        table-layout:fixed;
+        overflow:hidden;
+    }
+
+    .terms
+    {
+
+        border: 3px solid black;
+    }
+
+/* **************************************CSS DE LOS BOTONES  *************************** */
+
+    /* botones de eliminar y actualizar perfil  */
+    .boton1, .boton3 {
+
+    width: 49.8%;
+    display:inline-block;
+    }
+
+    @media (max-width:1344px)
+     {
+        .boton1, .boton3 {
+
+            width:100%;
+        }
+     }
+     
+     
+     
+
+     /* Botón de Sign up  */
+
+    .boton2 {
+
+        width: 100%;
+    }
+
+    /*  boton especial de cancelar  */
+    .cancelbtn {
+        width: auto;
+        padding: 10px 18px;
+        background-color: #f44336;
+        color:white;
+    }
+
+    .cancelbtn:hover{
+
+        background-color: rgba(255,0,0,0.9);
+    }
+
+    /* estilo de los botones de actualizar y eliminar*/
+    .botonform {
+
+        background-color: #000000;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+    }
+
+    .botonform:hover {
+    background-color: red;
+    }
+
+/**************** ESTILOS DE IMAGEN *****************************************/
+
+    /*posición del avatar de usuario */
+    .imgcontainerper {
+        float:left;
+        margin-right: 200px;
+        width: 250px;
+    }
+
+
+    /* características de la imagen del avatar */
+    img.avatar {
+
+        border-radius: 50%;
+        width: 250px;
+
+    }
+
+    @media (max-width: 767px)
+    {
+
+            img.avatar {
+
+            margin:0 auto;
+
+    }
+
+
+        .imgcontainerper{
+            width: 100%;
+
+           
+        
+
+        }
+    }
+
+/* ***************** ENCABEZADO ******************************************** */
+
+    /*Título del modal*/
+    .perfil{
+        text-align: center;
+        font-size: 30px;
+        background-color:#000000;
+        color:#FFFFFF;
+    }
+    
+    /*Posición de la x para cerrar el modal */
+
+    .xclose {
+    margin: 24px 0 12px 0;
+    position: relative;
+
+    }
+    /*estilo de la x */
+    .cerrar {
+        position: absolute;
+        right: 25px;
+        top: -15px;
+        color: white;
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    .cerrar:hover,
+    .cerrar:focus {
+        color: red;
+        cursor: pointer;
+    }
+
+    /*Posición y estilo de la x del login */
+    .cerrarlog {
+        position: absolute;
+        right: 25px;
+        top: -15px;
+        color: #000000;
+        font-size: 35px;
+        font-weight: bold;
+        }
+
+    .cerrarlog:hover, .cerrarlog:focus {
+        color: red;
+        cursor: pointer;
+    }
+
+    .cerrar:link, .cerrarlog:link
+    {
+        text-decoration: none;
+    }
+
+  
+/* ***************************CONTENIDO DEL MODAL ****************************** */
+
+    /*Estilo del contenedor del modal */
+    .contenedor {
+        padding: 16px;
+        background-color: #f1f1f1
+    }
+
+
+    /* Información del modal (fondo)*/
+    .modal {
+        display: none; /* No sale por defecto*/
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%; 
+        overflow: auto; /* activa el scroll*/
+        background-color: rgba(0,0,0,0.4); /* opacidad*/
+        padding-top: 60px;
+    }
+
+    /* caja del modal del formulario */
+    .mod {
+        background-color: #ffffff;
+        margin: 5% auto 15% auto;
+        border: 1px solid #888;
+        width: 80%; 
+    }
+
+        /* caja del modal del perfil*/
+    .modper {
+        background-color: #000000;
+        margin: 5% auto 15% auto;
+        border: 1px solid #888;
+        width: 80%; 
+    }
+
+    /* estilo de la tabla */
+
+    td, th {
+        text-align: left;
+        padding: 40px;
+    }
+
+    /* Campos de input con tamaño completo y con iconos de font awesome*/
+    .formIn {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        font-family: "FontAwesome";
+        font-size: 30px;
+      
+    }
+
+    .ajaxExiste{
+        color: #c12e2a;
+        font-size: 25px;
+    }
+    .ajaxDisponible{
+        color: #449d44;
+        font-size: 25px;
+    }
+/* **********************************OTROS ESTILOS ************************ */
+
+    /* Animación al abrir el modal*/
+    .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+    }
+
+
+    /* Estilos en pantallas pequeñas*/
+    @media screen and (max-width: 300px) {
+        span.psw {
+           display: block;
+           float: none;
+        }
+        .cancelbtn {
+           width: 100%;
+           overflow:hidden;
+        }
+    }
+ /***********************************************************FIN MODALES********************************************/
+/* ************************************************ EVENTOS ***************************************************** */
+
+.evento-display {
+    display: none;
+}
+.imgEvento {
+    width:100%;
+}
+.imgPerfil {
+    width:100%;
+    height:100%;
+}
+.evento-iframe {
+    border:0;
+    width:100%;
+    height:200px;
+}
+
+.eventos-proximos-container {
+    width:100%;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.eventos-proximos-margin {
+    margin:16px;
+}
+.eventos-proximos-padding-large {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.eventos-proximos-content {
+    max-width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 12;
+}
+.eventos-proximos-center {
+    text-align: center!important;
+}
+.eventos-proximos-opacity {
+    opacity: 0.6;
+}
+
+.eventos-proximos-justify{
+    text-align: right;
+    text-align: left;
+}
+.eventos-proximos-padding-16{
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.eventos-proximos-left{
+    float: left;
+}
+
+.eventos-proximos-button{
+    border: none;
+    display: inline-block;
+    outline: 0;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    margin-top: 50px;
+}
+.eventos-proximos-white{
+    color: #000!important;
+    background-color: #fff!important;
+}
+.eventos-proximos-border{
+    border: 1px solid #ccc!important;
+}
+
+.eventos-proximos-right{
+    float: right;
+}
+.eventos-proximos-black{
+    color: #fff!important;
+    background-color: #000!important;
+}
+.eventos-proximos-tag{
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+}
+
+.eventos-proximos-margin-bottom{
+    margin-bottom: 16px!important;
+}
+
+.eventos-proximos-show {
+    display:block!important;
+}
+
+
+
+p.clear {
+    clear: both;
+}
+
+
+
+
+.eventos-no-padding {
+    padding-right:0px;
+    padding-left:0px;
+    margin-bottom:30px;
+}
+
+.eventos-no-padding-izquierda {
+    padding-left:0px;
+    margin-bottom:20px;
+}
+
+.eventos-no-padding-derecha {
+    padding-right:0px;
+    padding-left:0px;
+}
+
+.eventos-localizacion-margenes {
+    margin-top: 20px;
+    max-width:96%;
+    padding-left:0px;
+    padding-right:0px;
+    margin-left:0px;
+    margin-right:0px;
+}
+
+.eventos-margin-top {
+    margin-top:40px;   
+}
+
+.eventos-simbolo-rojo {
+    color: red;
+}
+
+
+
+
+@media (max-width:402px) {
+    .eventos-proximos-right {
+        float:left;
+    }
+}
+
+
+.btnComentarios {
+    color: #FFFFFF;
+    background-color: #222;
+}
+
+.btnComentarios:hover {
+    color: #FFFFFF;
+    background-color: #F53939;
+}
+
+/* ************************************************ GALERÍA ***************************************************** */
+
+.galeria-quarter {
+    float:left;
+    width:100%;
+}
+
+@media (min-width:601px) {
+    .galeria-quarter {
+        width:24.99999%;
+    }
+}
+
+.galeria-row-padding {
+    padding: 0 8px;
+}
+
+.galeria-row-padding > .galeria-quarter {
+    padding: 0 8px;
+}
+
+.galeria-padding {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.imagenGaleria {
+    margin-top:20px;
+    margin-bottom:5px;
+}
+
+/* *********************************************** ÁLBUM ************************************************************* */
+
+    /* estilo de la imagen, poner el mismo ancho a todas */
+
+    .gal {
+
+        height: 237px;
+        width:100%;
+    }
+
+
+
+    /****************************** Efectos de la imagen  ******************************************/
+
+    /* oculta el overflow al poner los efectos y pone el ancho completo a las imagenes */
+    .zoom {
+        display: inline-block;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    /* Transiciones de los efectos */
+    .zoom img {
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
+        vertical-align: middle;
+    }
+
+    /* Efecto que tiene lugar al pasar el ratón por la imagen */
+
+    .zoom img:hover {
+        transform: scale(1.5) rotate(-5deg);
+        -ms-transform:scale(1.5) rotate(-5deg); /* IE 9 */
+        -moz-transform:scale(1.5) rotate(-5deg); /* Firefox */
+        -webkit-transform:scale(1.5) rotate(-5deg); /* Safari y Chrome */
+        -o-transform:scale(1.5) rotate(-5deg); /* Opera */
+    }
+
+    /*******************************************  LightBox  *************************************************************/
+
+    /* Preload images */
+    body:after {
+      content: url(../img/close.png) url(../img/loading.gif) url(../img/prev.png) url(../img/next.png);
+      display: none;
+    }
+
+    body.lb-disable-scrolling {
+      overflow: hidden;
+    }
+
+    .lightboxOverlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 9999;
+      background-color: black;
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+      opacity: 0.8;
+      display: none;
+    }
+
+    .lightbox {
+      position: absolute;
+      left: 0;
+      width: 100%;
+      z-index: 10000;
+      text-align: center;
+      line-height: 0;
+      font-weight: normal;
+    }
+
+    .lightbox .lb-image {
+      display: block;
+      height: auto;
+      max-width: inherit;
+      max-height: none;
+      border-radius: 3px;
+
+      /* Image border */
+      border: 4px solid white;
+    }
+
+    .lightbox a img {
+      border: none;
+    }
+
+    .lb-outerContainer {
+      position: relative;
+      *zoom: 1;
+      width: 250px;
+      height: 250px;
+      margin: 0 auto;
+      border-radius: 4px;
+
+      /* Color del fondo durante las transiciones*/
+      background-color: white;
+    }
+
+    .lb-outerContainer:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    .lb-loader {
+      position: absolute;
+      top: 43%;
+      left: 0;
+      height: 25%;
+      width: 100%;
+      text-align: center;
+      line-height: 0;
+    }
+
+    .lb-cancel {
+      display: block;
+      width: 32px;
+      height: 32px;
+      margin: 0 auto;
+      background: url(../img/loading.gif) no-repeat;
+    }
+
+    .lb-nav {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      z-index: 10;
+    }
+
+    .lb-container > .nav {
+      left: 0;
+    }
+
+    .lb-nav a {
+      outline: none;
+      background-image: url('data:image/gif;base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');
+    }
+
+    .lb-prev, .lb-next {
+      height: 100%;
+      cursor: pointer;
+      display: block;
+    }
+
+    .lb-nav a.lb-prev {
+      width: 34%;
+      left: 0;
+      float: left;
+      background: url(../img/prev.png) left 48% no-repeat;
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+      opacity: 0;
+      -webkit-transition: opacity 0.6s;
+      -moz-transition: opacity 0.6s;
+      -o-transition: opacity 0.6s;
+      transition: opacity 0.6s;
+    }
+
+    .lb-nav a.lb-prev:hover {
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+      opacity: 1;
+    }
+
+    .lb-nav a.lb-next {
+      width: 64%;
+      right: 0;
+      float: right;
+      background: url(../img/next.png) right 48% no-repeat;
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+      opacity: 0;
+      -webkit-transition: opacity 0.6s;
+      -moz-transition: opacity 0.6s;
+      -o-transition: opacity 0.6s;
+      transition: opacity 0.6s;
+    }
+
+    .lb-nav a.lb-next:hover {
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+      opacity: 1;
+    }
+
+    .lb-dataContainer {
+      margin: 0 auto;
+      padding-top: 5px;
+      *zoom: 1;
+      width: 100%;
+      -moz-border-radius-bottomleft: 4px;
+      -webkit-border-bottom-left-radius: 4px;
+      border-bottom-left-radius: 4px;
+      -moz-border-radius-bottomright: 4px;
+      -webkit-border-bottom-right-radius: 4px;
+      border-bottom-right-radius: 4px;
+    }
+
+    .lb-dataContainer:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    .lb-data {
+      padding: 0 4px;
+      color: #ccc;
+    }
+
+    .lb-data .lb-details {
+      width: 85%;
+      float: left;
+      text-align: left;
+      line-height: 1.1em;
+    }
+
+    .lb-data .lb-caption {
+      font-size: 13px;
+      font-weight: bold;
+      line-height: 1em;
+    }
+
+    .lb-data .lb-caption a {
+      color: #4ae;
+    }
+
+    .lb-data .lb-number {
+      display: block;
+      clear: left;
+      padding-bottom: 1em;
+      font-size: 12px;
+      color: #999999;
+    }
+
+    .lb-data .lb-close {
+      display: block;
+      float: right;
+      width: 30px;
+      height: 30px;
+      background: url(../img/close.png) top right no-repeat;
+      text-align: right;
+      outline: none;
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+      opacity: 0.7;
+      -webkit-transition: opacity 0.2s;
+      -moz-transition: opacity 0.2s;
+      -o-transition: opacity 0.2s;
+      transition: opacity 0.2s;
+    }
+
+    .lb-data .lb-close:hover {
+      cursor: pointer;
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+      opacity: 1;
+    }
+
+/* ******************************************************************FIN DEL ÁLBUM ****************************************************** */
+
+.btnGal {
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    color: #FFFFFF;
+    background-color: #222;
+}
+
+.hrTut {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    height: 1px;
+    background-color: #999999
+}
+
+.imgTutorial {
+    padding-left: 15px;
+    padding-right: 15px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 500px;
+    width: 100%;
+}
+
+.textos {
+
+    margin-left: 15px;
+}
